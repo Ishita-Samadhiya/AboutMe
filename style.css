@@ -1,9 +1,42 @@
 body{
-    background: linear-gradient(to  right, #5878eb 0%, #c0d7fb 80%);
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
 }
 .header{
-    position: fixed;
+    position: sticky;
+    top:0;
+    background-color: white;
+    margin:0px;
+}
+.links{
+    float: right;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 h1{
-    margin-top: 100px;
+    position: absolute;
+    margin: 0px;
+    font-size: 50pt;
+}
+#me{
+    margin: 45px 0px 0px 0px;
+}
+.me{
+    height: 250px;
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    position: relative;
+}
+#wrap1{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#wrap2{
+    display: table-cell;
+    vertical-align: middle;
 }
