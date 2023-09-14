@@ -1,5 +1,5 @@
 body{
-    background-color:rgba(128, 128, 128, 0.253);
+    background-color:rgb(0, 0, 0);
     font-family:'Times New Roman', Times, serif;
 }
 .page{
@@ -8,7 +8,7 @@ body{
     background-color:white; 
     border-radius: 5px;
     margin: 20px auto; 
-    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.669);
+    box-shadow: 3px 3px 3px rgba(249, 249, 249, 0.462);
 }
 .header{
     text-align: center;
